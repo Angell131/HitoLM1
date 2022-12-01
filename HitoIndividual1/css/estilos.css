@@ -1,0 +1,144 @@
+#titulo{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    width: inherit;
+    color: black;
+    font-size: 39px;
+    font-weight: bold;
+    background-color: rgba(240, 255, 240, 0.85);
+}
+#titulo:hover{
+    color: grey;
+}
+footer>div>a>img{
+    height: 80px;
+   
+}
+#nav{
+    position: fixed;
+    width: 100%;
+    z-index: 4;
+}
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgba(0, 0, 0, 0.692);
+    position: fixed;
+    width: 100%;
+  
+}
+nav>a{
+    text-decoration: none;
+    width: inherit;
+    color: white;
+    padding: 15px;
+    text-align: center;
+
+}
+main{
+    padding: 7px;
+}
+nav>a:hover{
+    background-color: rgba(128, 128, 128, 0.582);
+    color: ivory;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+.hockey{
+    color: black;
+    background-color: rgba(131, 131, 131, 0.651);
+}
+
+
+@media screen and (max-width:1500px) {
+    .hockey{
+        display: none !important;
+    }
+    
+}
+
+  
+  
+  
+  .titular{
+      text-align: center;
+      margin-top: 200px;
+  }
+  
+  
+  
+  #a {
+      text-decoration: none;
+      color: white;
+      font-size: 14px;
+      background: #5cb8ff;
+      padding:20px 30px 20px 30px;
+  }
+  
+#h1{
+      font-size: 60px;
+          margin: 0;
+          text-align: center;
+      }
+  
+#h2{
+          font-size: 25px;
+          text-align: center;
+  
+    }
+  
+  .Jigoro{
+      display: flex;
+      justify-content: space-around;
+      align-items: left;
+  
+  }
+  
+  #h3{
+      text-align: center;
+      font-size: 55px;
+      font-weight:normal;
+  
+  
+  }
+  
+  
+  
+  
+  .contenedor-parrafo-y-boton{
+  
+      width: 92%;
+  
+  }
+  
+  .contenedor-parrafo-y-boton p {
+  
+      font-size: 18px;
+      display: flex;
+      flex-wrap: wrap;
+  }
+  
+  .contenedor-parrafo-y-boton a {
+  
+      margin-top: 20px;
+      display: inline-block;
+  
+  }
+  #cartas{
+      display: flex;
+      flex-wrap: wrap;
+      text-align: center;
+      
+  }
+  .label{
+      background-color: rgba(128, 128, 128, 0.644);
+      color: black;
+  }
+  td,th,tr{
+      border: solid;
+      border-collapse: collapse;
+  }
